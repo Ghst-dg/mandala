@@ -1,0 +1,194 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxContainer {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noteBox {
+  width: 100%;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 1px rgba(9, 30, 66, 0.25), 0 0 1px rgba(9, 30, 66, 0.31);
+  padding: 0;
+  resize: vertical;
+}
+
+.bg {
+  border-radius: 0.25rem;
+  display: block;
+  background-color: #FFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  resize: vertical;
+  transition: all 0.5s ease-in-out;
+}
+
+.bg1 {
+  background-image: url("./bg1.png");
+}
+
+.bg2 {
+  background-image: url("./bg2.png");
+}
+
+.bg3 {
+  background-image: url("./bg3.png");
+}
+
+.bg4 {
+  background-image: url("./bg4.png");
+}
+
+.bg5 {
+  background-image: url("./bg5.png");
+}
+
+.atlasBox {
+  border-radius: 0.25rem;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.85);
+  resize: vertical;
+  border-left: 5px solid;
+  transition: border 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.atlasBox:hover {
+  border-left: 10px solid;
+}
+
+.titleBox {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  transition: color 0.25s ease-in-out;
+}
+.titleBox span {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 1.5rem;
+  display: inline;
+}
+.titleBox button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.titleBox button:hover {
+  background-color: rgba(193, 199, 208, 0.8);
+}
+.titleBox button:active {
+  background-color: rgba(179, 212, 255, 0.8);
+  color: #0065FF;
+}
+
+.contentBox {
+  font-size: 1rem;
+  padding: 1rem;
+  display: block;
+  resize: vertical;
+}
+
+.footerContent {
+  margin-top: 2%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+.footerContent button {
+  background-color: rgba(223, 225, 230, 0.8);
+  padding: 0.5rem;
+  border: none;
+  color: #42526E;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.footerContent button:hover {
+  background-color: rgba(193, 199, 208, 0.8);
+}
+.footerContent button:active {
+  background-color: rgba(179, 212, 255, 0.8);
+  color: #0065FF;
+}
+.footerContent div {
+  display: inline-block;
+}
+
+.impVis {
+  padding-inline: 4px;
+  background-color: #0052CC;
+  font-size: 11px;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  margin-left: 1rem;
+  border-radius: 3px;
+  box-sizing: border-box;
+  line-height: 16px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+.savedStatus {
+  padding-inline: 4px;
+  font-size: 11px;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  margin-left: 1rem;
+  border-radius: 3px;
+  box-sizing: border-box;
+  line-height: 16px;
+  text-transform: uppercase;
+  background-color: #36B37E;
+  transition: all 0.5s ease-in-out;
+}
+
+.btnContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.btnContainer button {
+  background-color: #0052CC;
+  padding: 0.5rem;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto;
+}
+.btnContainer button:hover {
+  background-color: #0065FF;
+}
+.btnContainer button:active {
+  background-color: #0747A6;
+}/*# sourceMappingURL=App.css.map */

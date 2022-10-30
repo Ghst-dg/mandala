@@ -1,0 +1,8 @@
+{
+  "name": "compass-global-page-custom-ui",
+  "version": "1.0.4",
+  "dependencies": {
+    "@forge/resolver": "^1.4.5",
+    "react-beautiful-dnd": "^13.1.1"
+  }
+}
